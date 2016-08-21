@@ -1,0 +1,97 @@
+body{
+  padding-top: 65px;
+  font-family:'Allerta', sans-serif;;
+}
+.vinay{
+  width:200px;
+}
+.navbar{
+  padding:1em;
+}
+.navbar-brand{
+  font-size: 2em;
+}
+.navbar-nav{
+  font-size: 1em;
+}
+footer{
+  padding-top: 35px;
+  size:1em;
+}
+.style{
+  color:#02a6d3;
+  font-family:'Ubuntu',sans-serif;
+  font-size:1.7em;
+}
+.btn-social {
+  display: inline-block;
+  height: 50px;
+  width: 45px;
+  font-size: 20px;
+  line-height: 45px;
+}
+.btn-outline {
+  font-size: 20px;
+  margin-top: 15px;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color:#FF9009;
+  border: solid 2px white;
+}
+.jumbotron{
+   background-color:#FF9009;
+  color:white;
+  padding-bottom: 75px;
+}
+h2{
+  color:#FF9009;
+  font-family: 'Baloo Bhaina',sans-serif;
+  font-size:2.5em;
+}
+.color{
+  color:#DF3D82;
+  font-family:'Ubuntu',sans-serif;
+  font-size:1.4em;
+  font-weight: 200;
+}
+.head{
+  font-family: 'Chewy';
+  font-size: 3em;
+  letter-spacing:0.05em;
+}
+.header{
+  font-family: 'Lobster';
+}
+.heading{
+  font-family: 'Verdana';
+  font-size: 1.2em;
+  letter-spacing:0.1em;
+}
+.btn-md{
+  font-family: 'Allerta';
+  letter-spacing: 0.05em;
+  margin-top: 15px;
+  
+}
+
+.container-fluid{
+  background-color:#FF9009 ;
+  color:white;
+}
+@media only screen and (min-width:200px) and (max-width:355px){
+  body{
+    padding-top:85px;
+  }
+} 
+@media only screen and (min-width:768px) and (max-width:1024px){
+  body{
+    padding-top:78px;
+
+  }
+  .ipad{
+    padding-top: 25px;
+  }
+}
